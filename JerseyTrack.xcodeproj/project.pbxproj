@@ -60,11 +60,6 @@
 				CEFDCFAF2AE5DCE600810264 /* Utilities */,
 				CEFDCFAE2AE5DCDE00810264 /* Extensions */,
 				CEFDCFAD2AE5DCD700810264 /* Support */,
-				CEFDCF9D2AE5DB0C00810264 /* JerseyTrackApp.swift */,
-				CEFDCF9F2AE5DB0C00810264 /* ContentView.swift */,
-				CEFDCFA12AE5DB0C00810264 /* Item.swift */,
-				CEFDCFA32AE5DB0D00810264 /* Assets.xcassets */,
-				CEFDCFA52AE5DB0D00810264 /* Preview Content */,
 			);
 			path = JerseyTrack;
 			sourceTree = "<group>";
@@ -80,6 +75,9 @@
 		CEFDCFAD2AE5DCD700810264 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				CEFDCF9D2AE5DB0C00810264 /* JerseyTrackApp.swift */,
+				CEFDCFA32AE5DB0D00810264 /* Assets.xcassets */,
+				CEFDCFA52AE5DB0D00810264 /* Preview Content */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -101,6 +99,7 @@
 		CEFDCFB02AE5DCF000810264 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CEFDCF9F2AE5DB0C00810264 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -122,6 +121,7 @@
 		CEFDCFB32AE5DD2500810264 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CEFDCFA12AE5DB0C00810264 /* Item.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -331,7 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"JerseyTrack/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"JerseyTrack/Support/Preview Content\"";
 				DEVELOPMENT_TEAM = XFG5L8LD8A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -360,7 +360,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"JerseyTrack/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"JerseyTrack/Support/Preview Content\"";
 				DEVELOPMENT_TEAM = XFG5L8LD8A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
