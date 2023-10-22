@@ -53,6 +53,13 @@
 		CEFDCF9C2AE5DB0C00810264 /* JerseyTrack */ = {
 			isa = PBXGroup;
 			children = (
+				CEFDCFB32AE5DD2500810264 /* Models */,
+				CEFDCFB22AE5DCFE00810264 /* ViewModels */,
+				CEFDCFB12AE5DCF700810264 /* Managers */,
+				CEFDCFB02AE5DCF000810264 /* Views */,
+				CEFDCFAF2AE5DCE600810264 /* Utilities */,
+				CEFDCFAE2AE5DCDE00810264 /* Extensions */,
+				CEFDCFAD2AE5DCD700810264 /* Support */,
 				CEFDCF9D2AE5DB0C00810264 /* JerseyTrackApp.swift */,
 				CEFDCF9F2AE5DB0C00810264 /* ContentView.swift */,
 				CEFDCFA12AE5DB0C00810264 /* Item.swift */,
@@ -68,6 +75,55 @@
 				CEFDCFA62AE5DB0D00810264 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEFDCFAD2AE5DCD700810264 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		CEFDCFAE2AE5DCDE00810264 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CEFDCFAF2AE5DCE600810264 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CEFDCFB02AE5DCF000810264 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEFDCFB12AE5DCF700810264 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CEFDCFB22AE5DCFE00810264 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CEFDCFB32AE5DD2500810264 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
