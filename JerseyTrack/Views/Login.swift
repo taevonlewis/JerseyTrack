@@ -7,6 +7,7 @@
 
 
 import SwiftUI
+import Firebase
 
 struct Login: View {
     @State private var email: String = ""
@@ -16,9 +17,25 @@ struct Login: View {
         VStack(spacing: 20) {
             TextField("Email", text: $email)
                 .textFieldStyle(.plain)
+                .textInputAutocapitalization(.never)
             SecureField("Password", text: $password)
                 .textFieldStyle(.plain)
-            Button("Login", role: .none) {}
+                .textInputAutocapitalization(.never)
+            Button {
+                login()
+            } label: {
+                Text("Login")
+            }
+
+        }
+    }
+    
+    private func login() {
+        Auth.auth().signIn(withEmail: email, password: password) { result, error in
+            print("success")
+            if error != nil {
+                print(error!.localizedDescription)
+            }
         }
     }
 }
