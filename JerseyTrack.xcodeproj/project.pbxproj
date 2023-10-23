@@ -12,6 +12,8 @@
 		CEFDCFA22AE5DB0C00810264 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDCFA12AE5DB0C00810264 /* Item.swift */; };
 		CEFDCFA42AE5DB0D00810264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFDCFA32AE5DB0D00810264 /* Assets.xcassets */; };
 		CEFDCFA72AE5DB0D00810264 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFDCFA62AE5DB0D00810264 /* Preview Assets.xcassets */; };
+		CEFDCFB52AE5E8A800810264 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDCFB42AE5E8A800810264 /* Signup.swift */; };
+		CEFDCFB72AE5F99D00810264 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDCFB62AE5F99D00810264 /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		CEFDCFA12AE5DB0C00810264 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CEFDCFA32AE5DB0D00810264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFDCFA62AE5DB0D00810264 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEFDCFB42AE5E8A800810264 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		CEFDCFB62AE5F99D00810264 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				CEFDCF9F2AE5DB0C00810264 /* ContentView.swift */,
+				CEFDCFB42AE5E8A800810264 /* Signup.swift */,
+				CEFDCFB62AE5F99D00810264 /* Login.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,6 +203,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEFDCFA02AE5DB0C00810264 /* ContentView.swift in Sources */,
+				CEFDCFB72AE5F99D00810264 /* Login.swift in Sources */,
+				CEFDCFB52AE5E8A800810264 /* Signup.swift in Sources */,
 				CEFDCFA22AE5DB0C00810264 /* Item.swift in Sources */,
 				CEFDCF9E2AE5DB0C00810264 /* JerseyTrackApp.swift in Sources */,
 			);
