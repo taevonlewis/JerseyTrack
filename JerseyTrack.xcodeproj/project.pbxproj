@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEBB2F142AEDFEA800147C8D /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB2F132AEDFEA800147C8D /* AuthViewModel.swift */; };
 		CEFDCF9E2AE5DB0C00810264 /* JerseyTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDCF9D2AE5DB0C00810264 /* JerseyTrackApp.swift */; };
 		CEFDCFA02AE5DB0C00810264 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDCF9F2AE5DB0C00810264 /* ContentView.swift */; };
 		CEFDCFA22AE5DB0C00810264 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDCFA12AE5DB0C00810264 /* Item.swift */; };
@@ -17,9 +18,20 @@
 		CEFDCFB92AE5FB6D00810264 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEFDCFB82AE5FB6D00810264 /* GoogleService-Info.plist */; };
 		CEFDCFC82AE5FCBF00810264 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CEFDCFC72AE5FCBF00810264 /* FirebaseAuth */; };
 		CEFDCFD42AE5FCBF00810264 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CEFDCFD32AE5FCBF00810264 /* FirebaseFirestore */; };
+		CEFDCFF72AE6E7FC00810264 /* JTFocusFieldModifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDCFF62AE6E7FC00810264 /* JTFocusFieldModifer.swift */; };
+		CEFDCFF92AE6E81D00810264 /* JTTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDCFF82AE6E81D00810264 /* JTTextFieldView.swift */; };
+		CEFDCFFB2AE6E84B00810264 /* JTGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDCFFA2AE6E84B00810264 /* JTGradientButton.swift */; };
+		CEFDCFFD2AE6E88500810264 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDCFFC2AE6E88500810264 /* Color+Ext.swift */; };
+		CEFDCFFF2AE6ED2000810264 /* FocusedField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDCFFE2AE6ED2000810264 /* FocusedField.swift */; };
+		CEFDD0012AE7071700810264 /* ActiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDD0002AE7071700810264 /* ActiveView.swift */; };
+		CEFDD0032AE733E700810264 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDD0022AE733E700810264 /* ParentView.swift */; };
+		CEFDD0052AE7780800810264 /* Validations+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDD0042AE7780800810264 /* Validations+Ext.swift */; };
+		CEFDD0072AE77A5900810264 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDD0062AE77A5900810264 /* ErrorMessage.swift */; };
+		CEFDD0092AE77AF500810264 /* ErrorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDD0082AE77AF500810264 /* ErrorMessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEBB2F132AEDFEA800147C8D /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		CEFDCF9A2AE5DB0C00810264 /* JerseyTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JerseyTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFDCF9D2AE5DB0C00810264 /* JerseyTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JerseyTrackApp.swift; sourceTree = "<group>"; };
 		CEFDCF9F2AE5DB0C00810264 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +41,16 @@
 		CEFDCFB42AE5E8A800810264 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
 		CEFDCFB62AE5F99D00810264 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		CEFDCFB82AE5FB6D00810264 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEFDCFF62AE6E7FC00810264 /* JTFocusFieldModifer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTFocusFieldModifer.swift; sourceTree = "<group>"; };
+		CEFDCFF82AE6E81D00810264 /* JTTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTTextFieldView.swift; sourceTree = "<group>"; };
+		CEFDCFFA2AE6E84B00810264 /* JTGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTGradientButton.swift; sourceTree = "<group>"; };
+		CEFDCFFC2AE6E88500810264 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		CEFDCFFE2AE6ED2000810264 /* FocusedField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusedField.swift; sourceTree = "<group>"; };
+		CEFDD0002AE7071700810264 /* ActiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveView.swift; sourceTree = "<group>"; };
+		CEFDD0022AE733E700810264 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
+		CEFDD0042AE7780800810264 /* Validations+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validations+Ext.swift"; sourceTree = "<group>"; };
+		CEFDD0062AE77A5900810264 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		CEFDD0082AE77AF500810264 /* ErrorMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +85,7 @@
 		CEFDCF9C2AE5DB0C00810264 /* JerseyTrack */ = {
 			isa = PBXGroup;
 			children = (
+				CEFDCFF52AE6E7CA00810264 /* CustomViews */,
 				CEFDCFB32AE5DD2500810264 /* Models */,
 				CEFDCFB22AE5DCFE00810264 /* ViewModels */,
 				CEFDCFB12AE5DCF700810264 /* Managers */,
@@ -96,6 +119,8 @@
 		CEFDCFAE2AE5DCDE00810264 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				CEFDCFFC2AE6E88500810264 /* Color+Ext.swift */,
+				CEFDD0042AE7780800810264 /* Validations+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -103,6 +128,10 @@
 		CEFDCFAF2AE5DCE600810264 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				CEFDCFFE2AE6ED2000810264 /* FocusedField.swift */,
+				CEFDD0002AE7071700810264 /* ActiveView.swift */,
+				CEFDD0022AE733E700810264 /* ParentView.swift */,
+				CEFDD0062AE77A5900810264 /* ErrorMessage.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -127,6 +156,7 @@
 		CEFDCFB22AE5DCFE00810264 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CEBB2F132AEDFEA800147C8D /* AuthViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -137,6 +167,17 @@
 				CEFDCFA12AE5DB0C00810264 /* Item.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		CEFDCFF52AE6E7CA00810264 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				CEFDCFF62AE6E7FC00810264 /* JTFocusFieldModifer.swift */,
+				CEFDCFF82AE6E81D00810264 /* JTTextFieldView.swift */,
+				CEFDCFFA2AE6E84B00810264 /* JTGradientButton.swift */,
+				CEFDD0082AE77AF500810264 /* ErrorMessageView.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,9 +259,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEFDCFA02AE5DB0C00810264 /* ContentView.swift in Sources */,
+				CEFDCFFB2AE6E84B00810264 /* JTGradientButton.swift in Sources */,
+				CEFDCFFF2AE6ED2000810264 /* FocusedField.swift in Sources */,
+				CEFDCFFD2AE6E88500810264 /* Color+Ext.swift in Sources */,
+				CEFDD0032AE733E700810264 /* ParentView.swift in Sources */,
 				CEFDCFB72AE5F99D00810264 /* Login.swift in Sources */,
+				CEFDD0092AE77AF500810264 /* ErrorMessageView.swift in Sources */,
 				CEFDCFB52AE5E8A800810264 /* Signup.swift in Sources */,
+				CEFDD0052AE7780800810264 /* Validations+Ext.swift in Sources */,
+				CEFDD0072AE77A5900810264 /* ErrorMessage.swift in Sources */,
+				CEFDCFF92AE6E81D00810264 /* JTTextFieldView.swift in Sources */,
 				CEFDCFA22AE5DB0C00810264 /* Item.swift in Sources */,
+				CEBB2F142AEDFEA800147C8D /* AuthViewModel.swift in Sources */,
+				CEFDD0012AE7071700810264 /* ActiveView.swift in Sources */,
+				CEFDCFF72AE6E7FC00810264 /* JTFocusFieldModifer.swift in Sources */,
 				CEFDCF9E2AE5DB0C00810264 /* JerseyTrackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
