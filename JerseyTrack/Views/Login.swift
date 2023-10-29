@@ -57,7 +57,7 @@ struct Login: View {
                                         Spacer()
                                         
                                         if let emailErrorMessage = model.getEmailErrorMessage() {
-                                            ErrorMessageView(message: emailErrorMessage.description)
+                                            JTErrorMessageView(message: emailErrorMessage.description)
                                                 .padding(.top, 70)
                                         }
                                     }
@@ -74,7 +74,7 @@ struct Login: View {
                                         Spacer()
                                         
                                         if let passwordErrorMessage = model.getPasswordErrorMessage() {
-                                            ErrorMessageView(message: passwordErrorMessage.description)
+                                            JTErrorMessageView(message: passwordErrorMessage.description)
                                                 .padding(.top, 70)
                                         }
                                     }

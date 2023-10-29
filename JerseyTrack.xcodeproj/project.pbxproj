@@ -27,7 +27,7 @@
 		CEFDD0032AE733E700810264 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDD0022AE733E700810264 /* ParentView.swift */; };
 		CEFDD0052AE7780800810264 /* Validations+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDD0042AE7780800810264 /* Validations+Ext.swift */; };
 		CEFDD0072AE77A5900810264 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDD0062AE77A5900810264 /* ErrorMessage.swift */; };
-		CEFDD0092AE77AF500810264 /* ErrorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDD0082AE77AF500810264 /* ErrorMessageView.swift */; };
+		CEFDD0092AE77AF500810264 /* JTErrorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDD0082AE77AF500810264 /* JTErrorMessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +50,7 @@
 		CEFDD0022AE733E700810264 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
 		CEFDD0042AE7780800810264 /* Validations+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validations+Ext.swift"; sourceTree = "<group>"; };
 		CEFDD0062AE77A5900810264 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
-		CEFDD0082AE77AF500810264 /* ErrorMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessageView.swift; sourceTree = "<group>"; };
+		CEFDD0082AE77AF500810264 /* JTErrorMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTErrorMessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +175,7 @@
 				CEFDCFF62AE6E7FC00810264 /* JTFocusFieldModifer.swift */,
 				CEFDCFF82AE6E81D00810264 /* JTTextFieldView.swift */,
 				CEFDCFFA2AE6E84B00810264 /* JTGradientButton.swift */,
-				CEFDD0082AE77AF500810264 /* ErrorMessageView.swift */,
+				CEFDD0082AE77AF500810264 /* JTErrorMessageView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 				CEFDCFFD2AE6E88500810264 /* Color+Ext.swift in Sources */,
 				CEFDD0032AE733E700810264 /* ParentView.swift in Sources */,
 				CEFDCFB72AE5F99D00810264 /* Login.swift in Sources */,
-				CEFDD0092AE77AF500810264 /* ErrorMessageView.swift in Sources */,
+				CEFDD0092AE77AF500810264 /* JTErrorMessageView.swift in Sources */,
 				CEFDCFB52AE5E8A800810264 /* Signup.swift in Sources */,
 				CEFDD0052AE7780800810264 /* Validations+Ext.swift in Sources */,
 				CEFDD0072AE77A5900810264 /* ErrorMessage.swift in Sources */,

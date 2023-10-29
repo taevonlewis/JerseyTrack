@@ -1,5 +1,5 @@
 //
-//  ErrorMessageView.swift
+//  JTErrorMessageView.swift
 //  JerseyTrack
 //
 //  Copyright © 2023 TaeVon Lewis. All rights reserved.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ErrorMessageView: View {
+struct JTErrorMessageView: View {
     var message: String
     
     var body: some View {
@@ -19,5 +19,5 @@ struct ErrorMessageView: View {
 }
 
 #Preview {
-    ErrorMessageView(message: ErrorMessage.invalidEmail.rawValue)
+    JTErrorMessageView(message: ErrorMessage.invalidEmail.rawValue)
 }
