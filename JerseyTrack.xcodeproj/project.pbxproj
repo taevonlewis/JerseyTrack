@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CEBB2F142AEDFEA800147C8D /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB2F132AEDFEA800147C8D /* AuthViewModel.swift */; };
+		CEF48E672B0CEFCD006E6F57 /* JTRouteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF48E662B0CEFCD006E6F57 /* JTRouteListView.swift */; };
 		CEFDCF9E2AE5DB0C00810264 /* JerseyTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDCF9D2AE5DB0C00810264 /* JerseyTrackApp.swift */; };
-		CEFDCFA02AE5DB0C00810264 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDCF9F2AE5DB0C00810264 /* ContentView.swift */; };
+		CEFDCFA02AE5DB0C00810264 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDCF9F2AE5DB0C00810264 /* HomeView.swift */; };
 		CEFDCFA22AE5DB0C00810264 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDCFA12AE5DB0C00810264 /* Item.swift */; };
 		CEFDCFA42AE5DB0D00810264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFDCFA32AE5DB0D00810264 /* Assets.xcassets */; };
 		CEFDCFA72AE5DB0D00810264 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFDCFA62AE5DB0D00810264 /* Preview Assets.xcassets */; };
@@ -32,9 +33,10 @@
 
 /* Begin PBXFileReference section */
 		CEBB2F132AEDFEA800147C8D /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		CEF48E662B0CEFCD006E6F57 /* JTRouteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTRouteListView.swift; sourceTree = "<group>"; };
 		CEFDCF9A2AE5DB0C00810264 /* JerseyTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JerseyTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFDCF9D2AE5DB0C00810264 /* JerseyTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JerseyTrackApp.swift; sourceTree = "<group>"; };
-		CEFDCF9F2AE5DB0C00810264 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEFDCF9F2AE5DB0C00810264 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CEFDCFA12AE5DB0C00810264 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CEFDCFA32AE5DB0D00810264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFDCFA62AE5DB0D00810264 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -139,7 +141,7 @@
 		CEFDCFB02AE5DCF000810264 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CEFDCF9F2AE5DB0C00810264 /* ContentView.swift */,
+				CEFDCF9F2AE5DB0C00810264 /* HomeView.swift */,
 				CEFDCFB42AE5E8A800810264 /* Signup.swift */,
 				CEFDCFB62AE5F99D00810264 /* Login.swift */,
 			);
@@ -176,6 +178,7 @@
 				CEFDCFF82AE6E81D00810264 /* JTTextFieldView.swift */,
 				CEFDCFFA2AE6E84B00810264 /* JTGradientButton.swift */,
 				CEFDD0082AE77AF500810264 /* JTErrorMessageView.swift */,
+				CEF48E662B0CEFCD006E6F57 /* JTRouteListView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -258,7 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFDCFA02AE5DB0C00810264 /* ContentView.swift in Sources */,
+				CEFDCFA02AE5DB0C00810264 /* HomeView.swift in Sources */,
+				CEF48E672B0CEFCD006E6F57 /* JTRouteListView.swift in Sources */,
 				CEFDCFFB2AE6E84B00810264 /* JTGradientButton.swift in Sources */,
 				CEFDCFFF2AE6ED2000810264 /* FocusedField.swift in Sources */,
 				CEFDCFFD2AE6E88500810264 /* Color+Ext.swift in Sources */,
@@ -410,6 +414,7 @@
 				DEVELOPMENT_TEAM = XFG5L8LD8A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Update your location to show transportation routes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -439,6 +444,7 @@
 				DEVELOPMENT_TEAM = XFG5L8LD8A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Update your location to show transportation routes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
