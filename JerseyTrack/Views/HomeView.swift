@@ -11,38 +11,13 @@ import MapKit
 import CoreLocation
 
 struct HomeView: View {
-    @State private var position: MapCameraPosition = .userLocation(followsHeading: true, fallback: .automatic)
-    @State private var isSheetPresented: Bool = true
-    
     var body: some View {
-        ZStack(alignment: .topLeading) {
-            Map(position: $position)
-            
-            ZStack(alignment: .bottomTrailing) {
-                Button(action: {
-                    
-                }, label: {
-                    Image(systemName: "person.circle")
-                        .resizable()
-                        .frame(width: 50, height: 50)
-                        .padding(5)
-                        .background(.white)
-                        .clipShape(Circle())
-                })
-                Image(systemName: "gearshape")
-                    .resizable()
-                    .frame(width: 20, height: 20)
-                    .background(.gray)
-                    .clipShape(Circle())
-                }
-            }
-        .mapControls {
-            MapCompass()
-            MapUserLocationButton()
-            MapPitchToggle()
-        }
-        .onAppear {
-            CLLocationManager().requestWhenInUseAuthorization()
+        let startPosition: MapCameraPosition = MapCameraPosition.region(MKCoordinateRegion(
+            center: CLLocationCoordinate2D(latitude: 40.217052, longitude: -74.742935), span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5)
+        ))
+        
+        MapReader { _ in
+            Map(initialPosition: startPosition)
         }
     }
 }
